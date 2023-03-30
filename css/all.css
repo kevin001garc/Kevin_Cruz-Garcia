@@ -1,0 +1,10 @@
+@import url(./header/head.css);
+@import url(./header/head_menu.css);
+@import url(./header/redes.css);
+@import url(./skills/skills.css);
+@import url(./profesional/profesional.css);
+@import url(./profesional/profesional-container-proyecto.css);
+@import url(./profesional/profesional-mobile.css);
+@import url(./descripcion/descripcion.css);
+
+@import url(./footer/footer.css);

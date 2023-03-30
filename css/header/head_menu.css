@@ -1,0 +1,54 @@
+.head__menu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 300px;
+    background: #fff;
+  }
+  .head__menu__logo{
+    width: 30%;
+    background: url(../../img/msg-1787141140-56.jpg) center / cover no-repeat;
+    border-radius: 50%;
+  }
+  .head__menu__link{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    
+  }
+  .head__menu__link a{
+    text-decoration: none;
+    color: rgb(4, 4, 84);
+  }
+  .head__menu__link a:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .head__menu__link_enlaces{
+    display: flex;
+    gap: 1rem;
+  }
+  .head__menu__link_enlaces a::before{
+    content: "\2728";
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width:760px) {
+    .head__menu{
+      width: 90%;
+      margin: 0 auto;
+      flex-direction: column-reverse;
+    }
+    .head__menu__logo{
+      width: 100%;
+    }
+    .head__menu__link{
+      width: 100%;
+    }
+    .head__menu__link_enlaces{
+      flex-wrap: wrap;
+    }
+  }

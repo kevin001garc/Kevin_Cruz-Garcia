@@ -1,0 +1,38 @@
+/*Roboto Slaf 400, 700
+  Roboto 400 500 700 900
+  Roboto Mono 400 500 700
+*/
+
+/*---------------------*/
+/*SECCION DE HEADER*/
+/*---------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+ 
+:root {
+  --letra: 'Roboto';
+  --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+   --ceniza: #464646;
+   --fondoAzul: #EAF2FD;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: var(--letra);
+  font-size: 1.2rem;  
+font-weight: bold;
+}
+
+
+/*---------------------*/
+/*SECCION PROFESIONAL*/
+/*---------------------*/
+
+
+@media screen and (max-width:760px) {
+  
+}

@@ -1,0 +1,29 @@
+
+.profesional-mobile{
+    padding: 2rem 0;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+  .profesional-mobile div{
+    width: 17%;
+    height: 400px;
+  }
+  .profesional-mobile div img{
+    height: 400px;
+    width: 100%;
+  }
+
+  @media screen and (max-width:760px) {
+    .profesional-mobile{
+      width: 80%;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+    .profesional-mobile div{
+      width: 100%;
+    }
+    
+
+  }

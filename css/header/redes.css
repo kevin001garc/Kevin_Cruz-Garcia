@@ -1,0 +1,26 @@
+.redes{
+    background: #e61414;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .redes__sociales{
+    display: flex;
+    justify-content: space-around;
+    justify-self: end;
+    align-items: center;
+    margin-right: 50px;
+    width: 300px;
+  }
+  .redes__sociales a{
+    color: #fff;
+    font-size: 1.7rem;
+  }
+  .redes__sociales a:hover{
+    color: black;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width:760px) {
+  
+  }

@@ -1,0 +1,13 @@
+.profesional{
+    padding: 2rem 1.5rem;
+  }
+  .profesional h3{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--ceniza);
+  }
+
+  @media screen and (max-width:760px) {
+  
+  }
